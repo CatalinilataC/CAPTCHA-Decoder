@@ -1,0 +1,11 @@
+CATALIN BAJENARU
+311 CB
+Problema + bonus
+Functia lire citeste datele continute intr-o imagine de tip bmp
+Functia task1 rezolva taskul 1 printr-o parcurge a matricii in care sunt pastrati pixelii: daca pixelul nu este alb atunci va afisa culoarea citita.
+In functia task2 este creata o matrice inversata (prima linie va fi prima) in care pixelii albi sunt 0, cei care fac parte din cifre sunt 1. Functia returneaza numarul de cifre din imagniea citita.
+Functia calcif primeste ca argumente coordonatele coltului cifrei si matricea creata in functia task2, si face o parcurgere asemanatoare cu algoritmul lui Lee pentru a marca pixelii pe care i-a verificat deja. Functia returneaza valoarea cifrei gasite, folosindu-se de numarul de pixeli necesari fiecarei cifre, iar daca mai e nevoie si de pozitia catorva pixeli ce compun cifra.
+Functia task3 primeste(printre altele) un vector cu cifrele care mai raman in poza si pozitiile lor. Sunt chemate 2 functii care inlocuiesc in matrice cifrele anterioare cu cele care ar trebui puse la noile pozitii si este afisata poza.
+Functia ripleis primeste 2 perechi de coordonate si inlocuieste cifra de la prima pereche de coordonate cu cifra de la a doua pereche de coordonate.(perechea de coordonate este coltul cifrei)
+Functia ripleis0 pune alb({255, 255, 255}) peste cifra oferita de coordonatele primite ca parametru.(adica peste un patrat de 5 x 5)
+Functia bonus rezolva bonusul: este citita noua imagine apeland functia lire, este parcursa matricea pentru a determina toate punctele ce vor influenta culoarea cifrelor memorandu-se coordonatele si culoarea pe care le avea punctul, parcursa inca o data matricea iar fiecare pixel care face parte dintr-o cifra va fi verificat in raza caror puncte se afla, culoarea sa modificandu-se si in final este afisata poza.
